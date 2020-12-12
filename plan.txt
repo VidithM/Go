@@ -1,0 +1,17 @@
+- Divided into 3 major components
+    - Scraping
+        - Start at some initial point, scrape, and discover new links to visit
+        - Perform scraping in a breadth-first fashion
+            - Maintain a queue of links to visit 
+                - Limit depth to 100
+
+    - Indexing
+        - Stores "site manifests", which are the results of scraping 
+        - Site URL, page title, subtitles, headers, etc.
+    
+    - Querying/Ranking
+        -  Can use a rudimentary ranking system
+            - Go through each index, count #of matching keywords as rank 
+        - For now, rank every index entry and include the top 10 in results 
+    
+
