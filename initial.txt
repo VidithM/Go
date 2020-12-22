@@ -1,0 +1,15 @@
+~News~
+https://www.msnbc.com
+https://www.foxnews.com/
+https://news.yahoo.com/
+~Entertainment~
+https://www.ign.com/
+~Health~
+https://www.webmd.com/
+https://www.healthline.com/
+~Cooking~
+https://www.foodnetwork.com/
+https://tasty.co/
+
+
+

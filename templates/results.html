@@ -1,0 +1,7 @@
+<body style = 'background-color:black'>
+    {% for idx, content in results.items() %}
+        <a style = 'color:white; font-size:20px' href = '{{content.url}}'>{{content.title}}</a>
+        <br>
+        <br>
+    {% endfor %}
+</body>
